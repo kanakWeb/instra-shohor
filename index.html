@@ -58,47 +58,57 @@
         </div>
     </main>
     <!-- Question to ans section start..................................................................... -->
-    <section class="container py-4">
+    <section class="container py-4 fs-5">
         <h2 class="text-center py-3">Question to Answer Part:</h2>
         <div class="accordion accordion-flush py-4" id="accordionFlushExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        কিভাবে জাভাস্কিপ্ট কাজ করে ?
+                        <p class="fs-4">কিভাবে জাভাস্কিপ্ট কাজ করে ?</p>
                     </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">জাভাস্কিপ্ট সাধারণত অন্য লাংঙ্গুয়েজ এর চেয়ে দ্রুত একজিকুউশন করে এবং শুরু
-                        থেকে লাইন বাই লাইন কাজ করে। এটা সার্ভার সাইডে চলে আর সার্ভার থেকে কোড একজকিউট হয়। এটা খুব বেশি
-                        মডিফাই করতে হয় নাহ ।যে কোন অপারেটিং সিস্টেমে চলে।তাছাড়া জাভাস্কিপ্ট ওপেন সোর্স আর এই জাভাস্কিপ্ট
-                        দিয়ে কাজ করলে আমাদের নতুন করে ম্রাক, উইন্ডোজ এর জন্য নতুন কোড লিখতে হয় নাহ । </div>
+                    <div class="accordion-body">জাভাস্কিপ্ট সাধারণত অন্য লাংঙ্গুয়েজ এর চেয়ে দ্রুত এক্সিকিউশন করে এবং
+                        জাভাস্ক্রিপ্ট কোড পড়ে প্রতিটি লাইন ব্যাখ্যা করে এবং শুরু থেকে লাইন বাই লাইন কাজ করে । এটা
+                        ক্লাইন্ট সাইডে ও সার্ভার সাইডে চলে আর সার্ভার থেকে কোড এক্সেকিউট হয় । এটা খুব বেশি মডিফাই করতে
+                        হয়
+                        নাহ । যে কোন অপারেটিং সিস্টেমে চলে । তাছাড়া জাভাস্কিপ্ট ওপেন সোর্স আর এই জাভাস্কিপ্ট
+                        দিয়ে কাজ করলে আমাদের নতুন করে ম্রাক,লিনাক্স, উইন্ডোজ এর জন্য নতুন কোড লিখতে হয় নাহ । ব্রাউজারে
+                        জাভাস্কিপ্ট সাধারণত ডোম ট্রী স্টাইল ট্রী এর মাধ্যমে রেন্ডার ট্রী থেকে ট্রী প্রিন্ট করে দেখায় আর
+                        জাভাস্কিপ্ট পারচ করে নাম্বার ও বাইটকোডে অনুবাদ করে যা মেশিন বুঝতে পারে এবং চালাতে পারে এভাবে কাজ
+                        করে । </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        লোকাল স্টোরেজ আর সেশন স্টোরেজ এর মধ্যে পার্থক্য ?
+                        <p class="fs-4">লোকাল স্টোরেজ আর সেশন স্টোরেজ এর মধ্যে পার্থক্য ?</p>
                     </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                        <p>লোকাল স্টোরেজ</p>
+                        <p class="fs-4">লোকাল স্টোরেজ -</p>
                         <ul>
-                            <li>স্থায়ীভাবে ডাটা থাকে</li>
-                            <li>এটি সার্ভারে ডেটা স্থানান্তর নেই</li>
+                            <li>স্থায়ীভাবে ডাটা থাকে ।</li>
+                            <li>এটি সার্ভারে ডেটা স্থানান্তর নেই ।</li>
+                            <li>ব্রাউজার বন্ধ করলে ডাটা থেকে যাই ।</li>
+                            <li>এটা দ্বারা ইউজাররের ডাটা বা ইনপুট যদি স্থায়ীভাবে রাখার দরকার হয় কাজের ক্ষেতে সেটা রাখা
+                                সম্ভব । </li>
                             <li>এটি সেশন-ভিত্তিক নয়, এটি অবশ্যই জাভাস্ক্রিপ্টের মাধ্যমে বা ম্যানুয়ালি মুছে ফেলা যাই।
                             </li>
 
                         </ul>
-                        <p>সেশন স্টোরেজ</p>
+                        <p class="fs-4">সেশন স্টোরেজ -</p>
                         <ul>
-                            <li> সাময়িকভাবে ডাটা থাকে</li>
-                            <li> এটি সার্ভারে ডেটা স্থানান্তর নয়</li>
-                            <li> ক্লায়েন্ট শুধুমাত্র স্থানীয় স্টোরেজ পড়তে পারে</li>
+                            <li> সাময়িকভাবে ডাটা থাকে ।</li>
+                            <li> এটি সার্ভারে ডেটা স্থানান্তর নয় ।</li>
+                            <li> ব্রাউজার বন্ধ করলে ডাটা চলে যায় ।</li>
+                            <li>এটা দ্বারা ইউজাররের ডাটা বা ইনপুট স্থায়ীভাবে রাখা সম্ভব নাহ ।</li>
+                            <li> ক্লায়েন্ট শুধুমাত্র স্থানীয় স্টোরেজ পড়তে পারে ।</li>
                         </ul>
                     </div>
                 </div>
